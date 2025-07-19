@@ -36,7 +36,7 @@ public class Article implements Searchable {
         return toString();
     }
 
-    @JsonIgnore
+    @JsonIgnore // убрать поле из ответ для веба
     @Override
     public String getContentType() {
         return "ARTICLE";
