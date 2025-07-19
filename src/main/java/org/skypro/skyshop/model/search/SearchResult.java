@@ -1,6 +1,5 @@
 package org.skypro.skyshop.model.search;
 
-
 public class SearchResult {
     private final String id;
     private final String name;

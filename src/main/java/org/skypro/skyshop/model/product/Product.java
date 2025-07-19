@@ -40,7 +40,7 @@ public abstract class Product implements Searchable {
     }
 
     @Override
-    @JsonIgnore
+    @JsonIgnore // убрать поле из ответ для веба
     public String getContentType() {
         return "PRODUCT";
     }
